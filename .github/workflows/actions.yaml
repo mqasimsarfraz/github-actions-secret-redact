@@ -1,0 +1,19 @@
+name: Test
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: "ubuntu-latest"
+    steps:
+    - name: Test
+      run: |
+        # this is a test
+        echo "this is a test"      
+
+        echo "${{ secrets.MY_SECRET }}"
+
+        # this is a test
+        echo "this is a test"

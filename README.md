@@ -1,1 +1,1 @@
-# github-actions-cwe
+# github-actions-secret-redact
